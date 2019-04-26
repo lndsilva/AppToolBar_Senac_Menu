@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/idGArquivo"
+        android:title="Arquivo">
+        <menu>
+            <item
+                android:id="@+id/mAdcionar"
+                android:icon="@drawable/ic_add_circle_dp"
+                android:title="Adicionar"
+                app:showAsAction="ifRoom"
+
+                />
+            <item
+                android:id="@+id/mLigar"
+                android:icon="@drawable/ic_call_dp"
+                android:title="Ligar"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mCamera"
+        android:icon="@drawable/ic_camera_dp"
+        android:title="Camera"
+        app:showAsAction="collapseActionView"
+
+        />
+    <item
+        android:id="@+id/mCarrinho"
+        android:icon="@drawable/ic_shopping_dp"
+        android:title="Compras"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/Video"
+        android:icon="@drawable/ic_videocam_dp"
+        android:title="Vídeos"
+        app:showAsAction="ifRoom"
+
+        />
+
+</menu>
